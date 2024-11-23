@@ -1,0 +1,14 @@
+global _start
+
+section .text
+
+_start:
+    ; Load arguments from the command line
+    mov eax, [esp + 4]   ; argc
+    mov ebx, esp         ; argv pointer
+    call classify
+
+    ; Exit the program
+    mov ebx, eax         ; Return value from classify
+    mov eax, 1           ; Exit syscall
+    int 0x80
