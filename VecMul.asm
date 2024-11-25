@@ -1,5 +1,5 @@
 section .text
-global VecMul
+global dot
 
 ; =======================================================
 ; FUNCTION: vector product of 2 integer arrays
