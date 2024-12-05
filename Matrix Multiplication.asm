@@ -18,13 +18,6 @@ global matrix_multiplication
 ;   - If dimensions are invalid, exits with code 38.
 ; =======================================================
 matrix_multiplication:
-    ; Error checks
-    li t0 1 ; 1 for bounds check
-    blt a1 t0 error
-    blt a2 t0 error
-    blt a4 t0 error
-    blt a5 t0 error
-    bne a2 a4 error
 
     ; Prologue
     push ebp
