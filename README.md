@@ -4,7 +4,7 @@ This personal project implements a handwritten digit classification system using
 
 Features:
 Matrix Operations: Implements core operations like ReLU activation, dot product, and matrix multiplication.
-File Handling: Reads and writes matrix data stored in binary files, ensuring seamless integration with datasets like MNIST.
+File Handling: Reads and writes matrix data stored in binary files, ensuring integration with datasets like MNIST.
 Neural Network Workflow:
 Reads weights and input matrices.
 Computes hidden layer activations using ReLU.
